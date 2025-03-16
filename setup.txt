@@ -12,14 +12,16 @@
 
     $ cd server && npm install to install dependencies for smart_contracts folder
 
-    Come back to the client terminal, and run the command npm start, this will automatically open http://localhost:3000/ on your browser
-
     Start ganache
     
     Come back to the smart contract terminal, and run the cmd npx hardhat run scripts/deploy.js --network localhost, this will give you an address, copy it.
 
     Now in client folder, create a new file .env.local and the content will be REACT_APP_CONTRACT_ADDRESS=address_you_copied
-
+    
     add ganache local network and a wallet account from network into metamask using the account's private key
+
+    come back to server terminal run npm start to start the server
+
+    Come back to the client terminal, and run the command npm start to start webapp, this will automatically open http://localhost:3000/ on your browser
 
     connect metamask to website on the webpage

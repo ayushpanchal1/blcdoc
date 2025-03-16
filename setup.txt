@@ -1,18 +1,19 @@
 
+    download ganache, ipfs desktop, ipfs companion extension, metamask extension
 
     Open IPFS Desktop application
 
-    use node.js version ^14.19.0
+    Start ganache
 
-    Use npm version ^8.5.5
+    use node.js version ^14.19.0 using nvm install 14.19.0 and then nvm use 14.19.0
+
+    Use npm version ^8.5.5 using npm cache clean -f then npm install -g npm@8.5.5
 
     $ cd client && npm install to install dependencies for client folder
 
     $ cd smart_contracts && npm install to install dependencies for smart_contracts folder
 
     $ cd server && npm install to install dependencies for smart_contracts folder
-
-    Start ganache
     
     Come back to the smart contract terminal, and run the cmd npx hardhat run scripts/deploy.js --network localhost, this will give you an address, copy it.
 

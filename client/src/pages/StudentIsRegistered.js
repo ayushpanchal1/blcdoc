@@ -43,7 +43,6 @@ const StudentIsRegistered = () => {
     <main className={styles.main}>
       <Container py={{ base: "10", md: "12" }} maxW={"7xl"}>
         <HStack spacing={2}>
-          <SkeletonCircle size="4" />
           <Heading as="h4" size="lg" textAlign="left" ml="-2">
             Found {certiCount} Certificates
           </Heading>

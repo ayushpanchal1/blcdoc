@@ -25,7 +25,6 @@ const NotRegisteredUserPage = () => {
         <main className={styles.main}>
             <Container py={{ base: "4", md: "12" }} maxW={"7xl"}>
                 <HStack spacing={2}>
-                    <SkeletonCircle size="4" />
                     <Heading as="h2" size="lg">
                         Register as
                     </Heading>

@@ -33,8 +33,7 @@ const LandingPage = () => {
                 as="h1"
                 py={4}
               >
-                A modern & secure way of managing student documents using <br />{" "}
-                Ethereum Blockchain ✨{" "}
+                Blockchain based Document Management System <br />{" "} using IPFS 🔗🌍
               </Heading>
               {/* Navlink will come here */}
               {/* <Link to="/is-registered">
@@ -66,27 +65,27 @@ const LandingPage = () => {
               </HStack>
               <Divider marginTop="4" />
               <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10} py={8}>
-                <FeatureBox
-                  icon={<Icon as={FcApproval} w={10} h={10} />}
-                  title={"Verifier"}
-                  text={
-                    "Verifier is an external authority eg: an employer who is trying to verify the authenticity of certificate"
-                  }
-                />
-                <FeatureBox
-                  icon={<Icon as={FcBusinessman} w={10} h={10} />}
-                  title={"Issuer"}
-                  text={
-                    "Issuer is an entity that issues the certificate in student's name, eg: University"
-                  }
-                />
-                <FeatureBox
-                  icon={<Icon as={FcManager} w={10} h={10} />}
-                  title={"Student"}
-                  text={
-                    "The person who is enrolled in a university and has a certificate issued by university"
-                  }
-                />
+              <FeatureBox
+            icon={<Icon as={FcApproval} w={10} h={10} />}
+            title={"Verifier"}
+            text={
+              "Verifier is an external authority eg: an employer who is trying to verify the authenticity of certificate"
+            }
+          />
+          <FeatureBox
+            icon={<Icon as={FcManager} w={10} h={10} />}
+            title={"User"}
+            text={
+              "The user can access and show documents issued to their name by an authority"
+            }
+          />
+          <FeatureBox
+            icon={<Icon as={FcBusinessman} w={10} h={10} />}
+            title={"Issuer"}
+            text={
+              "Issuer is an entity that issues the certificate in the user's name, eg: University, Government"
+            }
+          />
               </SimpleGrid>
             </Container>
           </main>

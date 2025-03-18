@@ -38,8 +38,7 @@ const ConnectWalletPage = () => {
           as="h1"
           py={4}
         >
-          A modern & secure way of managing student documents using <br />{" "}
-          Ethereum Blockchain ✨
+          Blockchain based Document Management System <br />{" "} using IPFS 🔗🌍
         </Heading>
         <Button
           display={{ sm: "inline-flex" }}
@@ -64,7 +63,7 @@ const ConnectWalletPage = () => {
         id="howitworks"
       >
         <HStack spacing={2}>
-          <SkeletonCircle size="4" />
+          
           <Heading as="h2" size="lg">
             Type of users
           </Heading>
@@ -79,17 +78,17 @@ const ConnectWalletPage = () => {
             }
           />
           <FeatureBox
-            icon={<Icon as={FcBusinessman} w={10} h={10} />}
-            title={"Issuer"}
+            icon={<Icon as={FcManager} w={10} h={10} />}
+            title={"User"}
             text={
-              "Issuer is an entity that issues the certificate in student's name, eg: University"
+              "The user can access and show documents issued to their name by an authority"
             }
           />
           <FeatureBox
-            icon={<Icon as={FcManager} w={10} h={10} />}
-            title={"Student"}
+            icon={<Icon as={FcBusinessman} w={10} h={10} />}
+            title={"Issuer"}
             text={
-              "The person who is enrolled in a university and has a certificate issued by university"
+              "Issuer is an entity that issues the certificate in the user's name, eg: University, Government"
             }
           />
         </SimpleGrid>

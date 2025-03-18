@@ -5,15 +5,17 @@
 
     Start ganache
 
+    set up local network from ganache and three wallets in three browsers in metamask
+
     use node.js version ^14.19.0 using nvm install 14.19.0 and then nvm use 14.19.0
 
     Use npm version ^8.5.5 using npm cache clean -f then npm install -g npm@8.5.5
 
-    $ cd client && npm install to install dependencies for client folder
+    cd client && npm install to install dependencies for client folder
 
-    $ cd smart_contracts && npm install to install dependencies for smart_contracts folder
+    cd smart_contracts && npm install to install dependencies for smart_contracts folder
 
-    $ cd server && npm install to install dependencies for smart_contracts folder
+    cd server && npm install to install dependencies for smart_contracts folder
     
     Come back to the smart contract terminal, and run the cmd npx hardhat run scripts/deploy.js --network localhost, this will give you an address, copy it.
 
@@ -23,6 +25,6 @@
 
     come back to server terminal run npm start to start the server
 
-    Come back to the client terminal, and run the command npm start to start webapp, this will automatically open http://localhost:3000/ on your browser
+    Come back to the client terminal, and run the command npm start to start webapp at http://localhost:3000/ on your browser
 
-    connect metamask to website on the webpage
+    connect website to metamask on the webpage
